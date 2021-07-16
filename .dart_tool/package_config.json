@@ -50,6 +50,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-5.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
       "packageUri": "lib/",
@@ -70,6 +88,60 @@
     {
       "name": "ffi",
       "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/ffi-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_auth-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_messaging",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-10.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_messaging_platform_interface",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_messaging_platform_interface-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_messaging_web",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/firebase_messaging_web-2.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -111,7 +183,7 @@
     },
     {
       "name": "flutter_tts",
-      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.1.0",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -152,6 +224,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
@@ -159,9 +237,9 @@
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.1.1",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
@@ -213,9 +291,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "provider",
@@ -237,15 +315,15 @@
     },
     {
       "name": "speech_to_text",
-      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/speech_to_text-3.2.0",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/speech_to_text-4.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "speech_to_text_platform_interface",
-      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/speech_to_text_platform_interface-1.4.2",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/speech_to_text_platform_interface-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
@@ -356,7 +434,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-16T15:34:48.574082Z",
+  "generated": "2021-07-16T16:37:33.383211Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }
