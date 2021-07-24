@@ -223,7 +223,13 @@ class _LoginState extends State<Login> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         GestureDetector(
-                          onTap: () {},
+                          onTap: () {
+                            Authentication.signInWithGoogle();
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => HomePage()));
+                          },
                           child: CircleAvatar(
                             radius: 20,
                             backgroundColor: Colors.grey.shade200,

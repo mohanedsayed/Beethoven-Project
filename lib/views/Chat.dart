@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:graduation_project101/views/chat_screen.dart';
 
 import 'Notifications.dart';
 
@@ -221,7 +222,7 @@ class _ConversationListState extends State<ConversationList> {
     return GestureDetector(
       onTap: () {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => Notifications()));
+            context, MaterialPageRoute(builder: (context) => chatting()));
       },
       child: Container(
         padding: EdgeInsets.only(left: 16, right: 16, top: 10, bottom: 10),

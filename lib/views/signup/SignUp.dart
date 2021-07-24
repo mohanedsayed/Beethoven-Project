@@ -89,6 +89,7 @@ class FormScreenState extends State<SignUp> {
                             },
                           ),
                           TextFormField(
+                            controller: lastName,
                             decoration: InputDecoration(labelText: 'Last Name'),
                             //maxLength: 12,
                             validator: (String value) {
@@ -211,6 +212,11 @@ class FormScreenState extends State<SignUp> {
                             User user = await Authentication.signUp(
                                 email.text.trim(), _pass.text.trim());
                             print(user);
+                            Authentication.createUser(
+                                firstName.text.trim(),
+                                lastName.text.trim(),
+                                email.text.trim(),
+                                'profilePicture');
                             if (user != null) {
                               print(user);
                               Navigator.pushReplacement(

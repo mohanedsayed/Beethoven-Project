@@ -9,6 +9,7 @@ import 'package:firebase_auth_web/firebase_auth_web.dart';
 import 'package:firebase_core_web/firebase_core_web.dart';
 import 'package:firebase_messaging_web/firebase_messaging_web.dart';
 import 'package:flutter_tts/flutter_tts_web.dart';
+import 'package:google_sign_in_web/google_sign_in_web.dart';
 import 'package:image_picker_for_web/image_picker_for_web.dart';
 import 'package:speech_to_text/speech_to_text_web.dart';
 import 'package:video_player_web/video_player_web.dart';
@@ -23,6 +24,7 @@ void registerPlugins(Registrar registrar) {
   FirebaseCoreWeb.registerWith(registrar);
   FirebaseMessagingWeb.registerWith(registrar);
   FlutterTtsPlugin.registerWith(registrar);
+  GoogleSignInPlugin.registerWith(registrar);
   ImagePickerPlugin.registerWith(registrar);
   SpeechToTextPlugin.registerWith(registrar);
   VideoPlayerPlugin.registerWith(registrar);

@@ -194,6 +194,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/http-0.13.3",
       "packageUri": "lib/",
@@ -298,6 +316,12 @@
     {
       "name": "provider",
       "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/mohanedsayed/.pub-cache/hosted/pub.dartlang.org/quiver-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -434,7 +458,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-16T16:37:33.383211Z",
+  "generated": "2021-07-23T13:48:22.604833Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }
