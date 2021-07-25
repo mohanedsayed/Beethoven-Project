@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:graduation_project101/constants/colors.dart';
@@ -246,11 +247,20 @@ class FormScreenState extends State<SignUp> {
                             User user = await Authentication.signUp(
                                 email.text.trim(), _pass.text.trim());
                             print(user);
-                            Authentication.createUser(
-                                firstName.text.trim(),
-                                lastName.text.trim(),
-                                email.text.trim(),
-                                imagePath);
+                            FirebaseFirestore.instance
+                                .collection('users')
+                                .doc(auth.currentUser.uid)
+                                .set({
+                              'fName': firstName.text.trim(),
+                              'lName': lastName.text.trim(),
+                              'email': email.text.trim(),
+                              'profilePicture': imagePath
+                            });
+                            // Authentication.createUser(
+                            //     firstName.text.trim(),
+                            //     lastName.text.trim(),
+                            //     email.text.trim(),
+                            //     imagePath);
                             if (user != null) {
                               print(user);
                               Navigator.pushReplacement(

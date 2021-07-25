@@ -1,7 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:graduation_project101/constants/colors.dart';
 import 'package:graduation_project101/widgets/post_container.dart';
+
+final usersRef = FirebaseFirestore.instance.collection('users');
+FirebaseAuth auth = FirebaseAuth.instance;
 
 class Profile extends StatefulWidget {
   Profile({Key key}) : super(key: key);
@@ -10,11 +15,36 @@ class Profile extends StatefulWidget {
   _ProfileState createState() => _ProfileState();
 }
 
-String userName = 'John Doe';
-String email = '@John_Doe120';
+String userName = '';
+String email = '';
 bool male = true;
 
 class _ProfileState extends State<Profile> {
+  String userFName = '';
+  String userLName = '';
+
+  @override
+  void initState() {
+    getUserById();
+    super.initState();
+  }
+
+  Future<DocumentSnapshot> getUserById() async {
+    DocumentSnapshot userData = await usersRef.doc(auth.currentUser.uid).get();
+    // .then((DocumentSnapshot doc) {
+    //   print(doc.id);
+    //   print(doc.data().toString());
+    // });
+
+    setState(() {
+      userFName = userData.get('fName');
+      userLName = userData.get('lName');
+      userName = userFName + '  ' + userLName;
+      email = '@' + userFName + userLName;
+    });
+    return userData;
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -115,7 +145,7 @@ class _ProfileState extends State<Profile> {
                           color: iconColor,
                         ),
                         SizedBox(width: 5),
-                        Text('John.doe@gmail.com',
+                        Text(auth.currentUser.email,
                             style: TextStyle(color: fadedTextColor2)),
                       ],
                     ),

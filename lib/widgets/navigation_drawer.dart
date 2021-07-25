@@ -80,7 +80,7 @@ class _DrawerContainerState extends State<DrawerContainer> {
                                 Row(
                                   children: [
                                     Text(
-                                      'Mohaned',
+                                      userFName,
                                       style: TextStyle(
                                           fontSize: 22,
                                           fontWeight: FontWeight.bold),
@@ -89,7 +89,7 @@ class _DrawerContainerState extends State<DrawerContainer> {
                                       width: 5,
                                     ),
                                     Text(
-                                      'Sayed',
+                                      userLName,
                                       style: TextStyle(
                                           fontSize: 22,
                                           fontWeight: FontWeight.bold),
