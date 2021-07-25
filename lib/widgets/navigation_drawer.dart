@@ -40,7 +40,7 @@ class _DrawerContainerState extends State<DrawerContainer> {
     //   print(doc.id);
     //   print(doc.data().toString());
     // });
-    print(userData.get('fName'));
+
     setState(() {
       userFName = userData.get('fName');
       userLName = userData.get('lName');
@@ -80,7 +80,7 @@ class _DrawerContainerState extends State<DrawerContainer> {
                                 Row(
                                   children: [
                                     Text(
-                                      userFName,
+                                      'Mohaned',
                                       style: TextStyle(
                                           fontSize: 22,
                                           fontWeight: FontWeight.bold),
@@ -89,7 +89,7 @@ class _DrawerContainerState extends State<DrawerContainer> {
                                       width: 5,
                                     ),
                                     Text(
-                                      userLName,
+                                      'Sayed',
                                       style: TextStyle(
                                           fontSize: 22,
                                           fontWeight: FontWeight.bold),

@@ -9,11 +9,8 @@ import 'package:graduation_project101/widgets/comment_container.dart';
 import 'package:graduation_project101/widgets/createPost.dart';
 import 'package:graduation_project101/widgets/navigation_drawer.dart';
 import 'package:graduation_project101/widgets/post_container.dart';
-import 'package:graduation_project101/widgets/post_icon.dart';
-import 'package:graduation_project101/widgets/post_interaction.dart';
-import 'package:graduation_project101/widgets/question_post_container.dart';
-import 'package:graduation_project101/widgets/threeDots_container.dart';
-import 'package:image_picker/image_picker.dart';
+import 'direct_contact/test.dart';
+import 'search/search.dart';
 
 class LandingPage extends StatefulWidget {
   @override
@@ -23,6 +20,7 @@ class LandingPage extends StatefulWidget {
 class _LandingPageState extends State<LandingPage> {
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
+  List<Widget> posts = [PostContainer(), PostContainer()];
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -63,12 +61,28 @@ class _LandingPageState extends State<LandingPage> {
         actions: [
           GestureDetector(
             onTap: () => Navigator.push(
+                context, MaterialPageRoute(builder: (context) => Search())),
+            child: CircleAvatar(
+              backgroundColor: iconBackgroundColor,
+              radius: 20,
+              child: Icon(
+                Icons.search,
+                size: 28,
+                color: primaryColor,
+              ),
+            ),
+          ),
+          SizedBox(
+            width: 10,
+          ),
+          GestureDetector(
+            onTap: () => Navigator.push(
                 context, MaterialPageRoute(builder: (context) => TTSpeech())),
             child: CircleAvatar(
               backgroundColor: iconBackgroundColor,
               radius: 20,
               child: Icon(
-                Icons.text_fields,
+                Icons.keyboard,
                 size: 28,
                 color: primaryColor,
               ),
@@ -127,7 +141,7 @@ class _LandingPageState extends State<LandingPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => SpeechToText(),
+                            builder: (context) => SpeechToTextScreen(),
                           ),
                         );
 
@@ -137,7 +151,7 @@ class _LandingPageState extends State<LandingPage> {
                         height: 50,
                         width: size.width * 0.9,
                         decoration: BoxDecoration(
-                            color: Color(0xFF5224E3),
+                            color: primaryColor,
                             borderRadius: BorderRadius.circular(18)),
                         child: Center(
                           child: Text(
@@ -173,15 +187,7 @@ class _LandingPageState extends State<LandingPage> {
         return Container(
           color: Colors.white,
           child: ListView(
-            children: [
-              PostContainer(
-                onAgreePressed: () {},
-                onSharePressed: () {},
-              ),
-              QuestionPostContainer(),
-              PostContainer(),
-              PostContainer(),
-            ],
+            children: posts,
             // padding: EdgeInsets.only(top: 20, left: 16, right: 16),
           ),
         );

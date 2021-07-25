@@ -3,14 +3,17 @@ import 'package:graduation_project101/constants/colors.dart';
 import 'package:graduation_project101/widgets/post_icon.dart';
 import 'package:graduation_project101/widgets/post_interaction.dart';
 
-class CommentContainer extends StatelessWidget {
+class CommentContainer extends StatefulWidget {
   const CommentContainer({
     Key key,
-    @required this.onAgreePressed,
   }) : super(key: key);
 
-  final Function onAgreePressed;
+  @override
+  _CommentContainerState createState() => _CommentContainerState();
+}
 
+class _CommentContainerState extends State<CommentContainer> {
+  bool agreePressed = false;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -71,92 +74,7 @@ class CommentContainer extends StatelessWidget {
                   shrinkWrap: true,
                   itemCount: 15,
                   itemBuilder: (context, index) {
-                    return Container(
-                      padding: EdgeInsets.only(top: 16),
-                      child: Column(
-                        children: [
-                          Row(
-                            children: [
-                              CircleAvatar(
-                                backgroundImage: NetworkImage(
-                                    'https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg'),
-                              ),
-                              SizedBox(
-                                width: 8,
-                              ),
-                              Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    'James jones',
-                                    style: TextStyle(fontSize: 16),
-                                  ),
-                                  Text(
-                                    'Today 4:20',
-                                    style: TextStyle(color: Colors.grey[500]),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Container(
-                            padding: EdgeInsets.all(12),
-                            margin: EdgeInsets.symmetric(
-                                horizontal: 12, vertical: 12),
-                            decoration: BoxDecoration(boxShadow: [
-                              BoxShadow(color: Colors.grey[100]),
-                            ], borderRadius: BorderRadius.circular(16)),
-                            child: Text(
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.'),
-                          ),
-                          Row(
-                            // crossAxisAlignment: CrossAxisAlignment.center,
-                            // mainAxisAlignment: MainAxisAlignment.start,
-
-                            children: [
-                              SizedBox(
-                                width: 20,
-                              ),
-                              GestureDetector(
-                                onTap: () => onAgreePressed,
-                                child: Row(
-                                  children: [
-                                    PostIcon(icon: Icons.thumb_up_alt_outlined),
-                                    SizedBox(
-                                      width: 5,
-                                    ),
-                                    PostInteraction(
-                                      text: 'Agree',
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                              GestureDetector(
-                                onTap: () {},
-                                child: Row(
-                                  children: [
-                                    PostIcon(icon: Icons.reply),
-                                    SizedBox(
-                                      width: 5,
-                                    ),
-                                    PostInteraction(
-                                      text: 'Reply',
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Spacer(),
-                              PostIcon(
-                                icon: Icons.redo_sharp,
-                              )
-                            ],
-                          ),
-                        ],
-                      ),
-                    );
+                    return SingleComment();
                   }),
             ),
             Row(
@@ -188,6 +106,120 @@ class CommentContainer extends StatelessWidget {
             )
           ],
         ),
+      ),
+    );
+  }
+}
+
+class SingleComment extends StatefulWidget {
+  const SingleComment({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  _SingleCommentState createState() => _SingleCommentState();
+}
+
+class _SingleCommentState extends State<SingleComment> {
+  bool agreePressed = false;
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.only(top: 16),
+      child: Column(
+        children: [
+          Row(
+            children: [
+              CircleAvatar(
+                backgroundImage: NetworkImage(
+                    'https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg'),
+              ),
+              SizedBox(
+                width: 8,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'James jones',
+                    style: TextStyle(fontSize: 16),
+                  ),
+                  Text(
+                    'Today 4:20',
+                    style: TextStyle(color: Colors.grey[500]),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Container(
+            padding: EdgeInsets.all(12),
+            margin: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+            decoration: BoxDecoration(boxShadow: [
+              BoxShadow(color: Colors.grey[100]),
+            ], borderRadius: BorderRadius.circular(16)),
+            child: Text(
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.'),
+          ),
+          Row(
+            // crossAxisAlignment: CrossAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.start,
+
+            children: [
+              SizedBox(
+                width: 20,
+              ),
+              GestureDetector(
+                onTap: () {
+                  setState(() {
+                    agreePressed = !agreePressed;
+                  });
+                },
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.thumb_up_alt_outlined,
+                      color: agreePressed == false ? Colors.grey : primaryColor,
+                      size: 21,
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Text(
+                      'Agree',
+                      style: TextStyle(
+                          fontWeight: FontWeight.w200,
+                          color: agreePressed == false
+                              ? fadedTextColor
+                              : primaryColor),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                width: 10,
+              ),
+              GestureDetector(
+                onTap: () {},
+                child: Row(
+                  children: [
+                    PostIcon(icon: Icons.reply),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    PostInteraction(
+                      text: 'Reply',
+                    ),
+                  ],
+                ),
+              ),
+              Spacer(),
+              PostIcon(
+                icon: Icons.redo_sharp,
+              )
+            ],
+          ),
+        ],
       ),
     );
   }

@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: primaryColor,
         accentColor: iconBackgroundColor,
-        primaryTextTheme: TextTheme(bodyText1: TextStyle(color: Colors.red)),
+        // primaryTextTheme: TextTheme(bodyText1: TextStyle(color: Colors.red)),
       ),
       debugShowCheckedModeBanner: false,
       home: Login(),

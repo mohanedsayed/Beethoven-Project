@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:graduation_project101/constants/colors.dart';
 import 'package:graduation_project101/widgets/post_icon.dart';
 import 'package:graduation_project101/widgets/post_interaction.dart';
 import 'package:graduation_project101/widgets/threeDots_container.dart';
@@ -6,17 +7,21 @@ import 'package:graduation_project101/widgets/veritical_divider.dart';
 
 import 'comment_container.dart';
 
-class PostContainer extends StatelessWidget {
-  final Function onAgreePressed;
-  final Function onSharePressed;
-  final bool hidden = false;
-
+class PostContainer extends StatefulWidget {
   const PostContainer({
     Key key,
-    this.onAgreePressed,
-    this.onSharePressed,
   }) : super(key: key);
 
+  @override
+  _PostContainerState createState() => _PostContainerState();
+}
+
+class _PostContainerState extends State<PostContainer> {
+  final bool hidden = false;
+
+  bool agreePressed = false;
+
+  bool sharePressed = false;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -45,7 +50,7 @@ class PostContainer extends StatelessWidget {
                     height: 4,
                   ),
                   Text(
-                    'Today,   03:30',
+                    " ${DateTime.now().day.toString()}/${DateTime.now().month}/${DateTime.now().year} , ${DateTime.now().hour} : ${DateTime.now().minute} AM",
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.w200),
                   ),
                 ],
@@ -64,38 +69,64 @@ class PostContainer extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               GestureDetector(
-                onTap: () => onAgreePressed,
+                onTap: () {
+                  setState(() {
+                    agreePressed = !agreePressed;
+                  });
+                },
                 child: Padding(
                   padding: const EdgeInsets.only(right: 8.0),
                   child: Row(
                     children: [
-                      PostIcon(icon: Icons.thumb_up_alt_outlined),
+                      Icon(
+                        Icons.thumb_up_alt_outlined,
+                        color:
+                            agreePressed == false ? Colors.grey : primaryColor,
+                        size: 21,
+                      ),
                       SizedBox(
                         width: 5,
                       ),
-                      PostInteraction(
-                        text: 'Agree',
-                      ),
+                      Text(
+                        'Agree',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w200,
+                            color: agreePressed == false
+                                ? fadedTextColor
+                                : primaryColor),
+                      )
                     ],
                   ),
                 ),
               ),
               VerticalDivider1(),
               GestureDetector(
-                onTap: () => onSharePressed,
+                onTap: () {
+                  setState(() {
+                    sharePressed = !sharePressed;
+                  });
+                },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 12.0),
                   child: Row(
                     children: [
-                      PostIcon(
-                        icon: Icons.share_outlined,
+                      Icon(
+                        Icons.share_outlined,
+                        color:
+                            sharePressed == false ? Colors.grey : primaryColor,
+                        size: 21,
                       ),
                       SizedBox(
                         width: 5,
                       ),
-                      PostInteraction(
-                        text: 'Share',
-                      ),
+                      Text(
+                        'Share',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w200,
+                            color: sharePressed == false
+                                ? fadedTextColor
+                                : primaryColor),
+                      )
                     ],
                   ),
                 ),
@@ -108,7 +139,7 @@ class PostContainer extends StatelessWidget {
                     context: context,
                     isScrollControlled: true,
                     builder: (context) {
-                      return CommentContainer(onAgreePressed: onAgreePressed);
+                      return CommentContainer();
                     },
                   );
                 },

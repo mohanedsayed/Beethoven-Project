@@ -1,7 +1,11 @@
+import 'dart:io';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:graduation_project101/constants/colors.dart';
 import 'package:graduation_project101/services/auth.dart';
+import 'package:graduation_project101/widgets/navigation_drawer.dart';
+import 'package:image_picker/image_picker.dart';
 import '../home_page.dart';
 
 class SignUp extends StatefulWidget {
@@ -19,11 +23,24 @@ class FormScreenState extends State<SignUp> {
   String _password;
   bool passvisible = true;
   bool passvisible2 = true;
+  String imagePath;
+
   final TextEditingController _pass = TextEditingController();
   final TextEditingController firstName = TextEditingController();
   final TextEditingController lastName = TextEditingController();
   final TextEditingController email = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  void getImage(ImageSource imageSource) async {
+    final pickedFile = await ImagePicker().getImage(source: imageSource);
+    if (pickedFile != null) {
+      setState(() {
+        imagePath = pickedFile.path;
+      });
+    } else {
+      print('no image chosen or taken');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -43,8 +60,7 @@ class FormScreenState extends State<SignUp> {
             );
           },
         ),
-        //backgroundColor: Colors.grey[500].withOpacity(0.6),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.transparent,
         elevation: 0,
       ),
       body: SafeArea(
@@ -177,25 +193,43 @@ class FormScreenState extends State<SignUp> {
                               _confirmpassword = value;
                             },
                           ),
-
                           SizedBox(height: 40),
-
-                          // _formKey.currentState.save();
-                          //
-                          // print(_name);
-                          // print(_email);
-                          // print(_phoneNumber);
-                          // print(_url);
-                          // print(_password);
-                          // print(_calories);
-
-                          //Send to API
-                          //  },
-                          //  ),
+                          imagePath == null
+                              ? GestureDetector(
+                                  onTap: () => getImage(ImageSource.gallery),
+                                  child: Container(
+                                    margin:
+                                        EdgeInsets.symmetric(horizontal: 20),
+                                    padding:
+                                        EdgeInsets.symmetric(horizontal: 15),
+                                    decoration: BoxDecoration(
+                                        color: iconBackgroundColor,
+                                        borderRadius:
+                                            BorderRadius.circular(30)),
+                                    child: Row(
+                                      children: [
+                                        Icon(
+                                          Icons.photo,
+                                          color: primaryColor,
+                                          size: 40,
+                                        ),
+                                        SizedBox(width: 5),
+                                        Text('Add Profile Picture'),
+                                      ],
+                                    ),
+                                  ),
+                                )
+                              : Container(
+                                  child: Image.file(
+                                    File(imagePath),
+                                  ),
+                                ),
+                          SizedBox(height: 40),
                         ],
                       ),
                     ),
                     Container(
+                      margin: EdgeInsets.only(bottom: 20),
                       width: 280,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
@@ -216,7 +250,7 @@ class FormScreenState extends State<SignUp> {
                                 firstName.text.trim(),
                                 lastName.text.trim(),
                                 email.text.trim(),
-                                'profilePicture');
+                                imagePath);
                             if (user != null) {
                               print(user);
                               Navigator.pushReplacement(

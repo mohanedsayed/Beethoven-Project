@@ -5,6 +5,7 @@ INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Projec
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:1:1-48:12
 MERGED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:google_sign_in] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:video_player] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:wakelock] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
@@ -15,10 +16,15 @@ MERGED from [:cloud_firestore] /Users/mohanedsayed/Development/graduation folder
 MERGED from [:speech_to_text] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/speech_to_text/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/adddae3ba385aec743250694c64ced43/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/ea673a5ad4da458df76d53f5fdd03b44/jetified-exoplayer-dash-2.12.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/ad277b387b3cc86eb2202105590f2bd2/jetified-exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/da8c15cc3033eccee75c5c4bac7b1b08/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/f70c35eec00c5c2ba3119d309dd13e72/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
@@ -27,7 +33,7 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mohanedsayed/.
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/86909df28fe04005c23b458b219acaa1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/8ae4ba4e5467921d1a12ac653a8a2b60/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/38f8b90d5f1f0d5d3ce0d5aef14e8e7b/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/89df25be3f2c36456a3628c62311070a/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/635346ae8869c6d298f90f3f28ca9982/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/184f4ed127346696d5575a2983ac8614/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/4df3386c9165bd6129932a834067db31/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
@@ -57,8 +63,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mohanedsayed/.gr
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/ea66f04c1b31a676098eac293093753c/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/1752a0f800e803954ad33a7bf1f28783/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/59c182bc8e922d4efdacd495b33071d4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/4fbbf4249fda482dc733011bb350c954/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/487d4787ac1569bf793f516f4b0e6e9d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/6cd40def4c8354b26a22546e905bf4e2/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
@@ -71,7 +75,6 @@ MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/mohanedsa
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/884ac07bda28f469cfe35c32daf0f0d7/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/270fbb167139d451d67219e9a697045f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/49cadaaff1a5cc618a6642f8b3463c6e/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/6b72fac9d8d62afd8fae751c18698319/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -94,12 +97,14 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from [:google_sign_in] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:firebase_messaging] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:firebase_messaging] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/88f5497588dc4512e2b1889a04a28be9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/88f5497588dc4512e2b1889a04a28be9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/58f4e0d2e454932f75e834ceabb0a877/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
@@ -132,14 +137,16 @@ MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/B
 MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/f70c35eec00c5c2ba3119d309dd13e72/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/f70c35eec00c5c2ba3119d309dd13e72/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/184f4ed127346696d5575a2983ac8614/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/184f4ed127346696d5575a2983ac8614/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/f2e1566e2c029969e7227130688d53f2/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
@@ -222,6 +229,8 @@ uses-sdk
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/main/AndroidManifest.xml
+MERGED from [:google_sign_in] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:video_player] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:video_player] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:wakelock] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -242,6 +251,8 @@ MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/B
 MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/adddae3ba385aec743250694c64ced43/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/adddae3ba385aec743250694c64ced43/jetified-exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/ea673a5ad4da458df76d53f5fdd03b44/jetified-exoplayer-dash-2.12.1/AndroidManifest.xml:20:5-22:41
@@ -250,6 +261,14 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Use
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/ad277b387b3cc86eb2202105590f2bd2/jetified-exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/da8c15cc3033eccee75c5c4bac7b1b08/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/da8c15cc3033eccee75c5c4bac7b1b08/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
@@ -266,8 +285,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/8ae4ba4e5467921d1a12ac653a8a2b60/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/38f8b90d5f1f0d5d3ce0d5aef14e8e7b/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/38f8b90d5f1f0d5d3ce0d5aef14e8e7b/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/89df25be3f2c36456a3628c62311070a/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/89df25be3f2c36456a3628c62311070a/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/635346ae8869c6d298f90f3f28ca9982/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/635346ae8869c6d298f90f3f28ca9982/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/184f4ed127346696d5575a2983ac8614/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
@@ -326,10 +345,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohanedsayed/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/1752a0f800e803954ad33a7bf1f28783/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/59c182bc8e922d4efdacd495b33071d4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/59c182bc8e922d4efdacd495b33071d4/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/c523d55ec6a4dbedd0498059c8804a66/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/4fbbf4249fda482dc733011bb350c954/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/4fbbf4249fda482dc733011bb350c954/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/487d4787ac1569bf793f516f4b0e6e9d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -354,8 +369,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohanedsayed/.grad
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/270fbb167139d451d67219e9a697045f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/49cadaaff1a5cc618a6642f8b3463c6e/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/49cadaaff1a5cc618a6642f8b3463c6e/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/6b72fac9d8d62afd8fae751c18698319/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/6b72fac9d8d62afd8fae751c18698319/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/android/app/src/debug/AndroidManifest.xml
@@ -394,24 +407,24 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:firebase_messaging] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/da8c15cc3033eccee75c5c4bac7b1b08/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/da8c15cc3033eccee75c5c4bac7b1b08/jetified-exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/88f5497588dc4512e2b1889a04a28be9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/88f5497588dc4512e2b1889a04a28be9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/58f4e0d2e454932f75e834ceabb0a877/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/58f4e0d2e454932f75e834ceabb0a877/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/e8cc069b412710b862984bb96c13e415/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/95358bf43a4449df17a17777ec6cbbab/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/95358bf43a4449df17a17777ec6cbbab/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/b401a3dde390d17b5756304efc8b3ad1/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/b401a3dde390d17b5756304efc8b3ad1/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a2bb11f924883a11f37ede3ec18a5ce9/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [:firebase_messaging] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
 service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
@@ -456,12 +469,12 @@ MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/B
 MERGED from [:firebase_auth] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a09125ee8f664242776f7a291bbfb609/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/a09125ee8f664242776f7a291bbfb609/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/88f5497588dc4512e2b1889a04a28be9/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
@@ -469,7 +482,7 @@ MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/mohanedsa
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/2b0a70af29cfd6843ea950ad995f101a/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/2b0a70af29cfd6843ea950ad995f101a/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:19:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/2b0a70af29cfd6843ea950ad995f101a/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
 	android:directBootAware
@@ -510,6 +523,30 @@ ADDED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/Be
 		ADDED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/mohanedsayed/Development/graduation folder/BeetHoven-Project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/0f99fdb5ec1c0fbfd8d6bf25468ddd38/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/dd8cc4ba72bed3fd00f2f016d62438be/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
@@ -606,12 +643,6 @@ ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.
 		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/3ba1d32756c2658b01648acc9bcbefd6/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/52416fc64d145e393a8a1ac3bcbd712a/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mohanedsayed/.gradle/caches/transforms-2/files-2.1/f2e1566e2c029969e7227130688d53f2/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
 	android:exported

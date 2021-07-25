@@ -205,7 +205,7 @@ class QuestionPostContainer extends StatelessWidget {
                       context: context,
                       isScrollControlled: true,
                       builder: (context) {
-                        return CommentContainer(onAgreePressed: onAgreePressed);
+                        return CommentContainer();
                       },
                     );
                   },

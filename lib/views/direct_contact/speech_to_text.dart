@@ -1,15 +1,59 @@
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:graduation_project101/api/speech_api.dart';
+import 'package:graduation_project101/constants/colors.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
-class SpeechToText extends StatefulWidget {
+import 'dart:async';
+import 'dart:math';
+
+import 'package:speech_to_text/speech_recognition_error.dart';
+import 'package:speech_to_text/speech_recognition_result.dart';
+
+class SpeechToTextScreen extends StatefulWidget {
   @override
-  _SpeechToTextState createState() => _SpeechToTextState();
+  _SpeechToTextScreenState createState() => _SpeechToTextScreenState();
 }
 
-class _SpeechToTextState extends State<SpeechToText> {
+class _SpeechToTextScreenState extends State<SpeechToTextScreen> {
   bool isListening = false;
   String text = 'Start contacting by pressing \nthe Mic button';
+  bool _hasSpeech = false;
+  double level = 0.0;
+  double minSoundLevel = 50000;
+  double maxSoundLevel = -50000;
+  String lastWords = '';
+  String lastError = '';
+  String lastStatus = '';
+  String _currentLocaleId = '';
+  int resultListened = 0;
+  List<LocaleName> _localeNames = [];
+  final speech = SpeechToText();
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  Future<void> initSpeechState() async {
+    var hasSpeech = await speech.initialize(
+        onError: errorListener,
+        onStatus: statusListener,
+        debugLogging: true,
+        finalTimeout: Duration(milliseconds: 0));
+    if (hasSpeech) {
+      _localeNames = await speech.locales();
+
+      var systemLocale = await speech.systemLocale();
+      _currentLocaleId = systemLocale?.localeId ?? '';
+    }
+
+    if (!mounted) return;
+
+    setState(() {
+      _hasSpeech = hasSpeech;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -17,13 +61,12 @@ class _SpeechToTextState extends State<SpeechToText> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: GestureDetector(
         onTap: () {
-          toggleRecording();
           setState(() {
             isListening = !isListening;
           });
         },
         child: AvatarGlow(
-          glowColor: Color(0xFF5224E3),
+          glowColor: primaryColor,
           animate: isListening,
           endRadius: 70,
           child: CircleAvatar(
@@ -31,7 +74,7 @@ class _SpeechToTextState extends State<SpeechToText> {
             backgroundColor: Colors.white,
             child: Icon(
               Icons.mic,
-              color: Color(0xFF5224E3),
+              color: primaryColor,
               size: 45,
             ),
           ),
@@ -51,6 +94,23 @@ class _SpeechToTextState extends State<SpeechToText> {
                   size: 40,
                 ),
                 onPressed: () => Navigator.pop(context)),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              DropdownButton(
+                onChanged: (selectedVal) => _switchLang(selectedVal),
+                value: _currentLocaleId,
+                items: _localeNames
+                    .map(
+                      (localeName) => DropdownMenuItem(
+                        value: localeName.localeId,
+                        child: Text(localeName.name),
+                      ),
+                    )
+                    .toList(),
+              ),
+            ],
           ),
           Positioned(
             top: 350,
@@ -84,6 +144,74 @@ class _SpeechToTextState extends State<SpeechToText> {
         ],
       ),
     );
+  }
+
+  void startListening() {
+    lastWords = '';
+    lastError = '';
+    speech.listen(
+        onResult: resultListener,
+        listenFor: Duration(seconds: 30),
+        pauseFor: Duration(seconds: 5),
+        partialResults: true,
+        localeId: _currentLocaleId,
+        onSoundLevelChange: soundLevelListener,
+        cancelOnError: true,
+        listenMode: ListenMode.confirmation);
+    setState(() {});
+  }
+
+  void stopListening() {
+    speech.stop();
+    setState(() {
+      level = 0.0;
+    });
+  }
+
+  void cancelListening() {
+    speech.cancel();
+    setState(() {
+      level = 0.0;
+    });
+  }
+
+  void resultListener(SpeechRecognitionResult result) {
+    ++resultListened;
+    print('Result listener $resultListened');
+    setState(() {
+      lastWords = '${result.recognizedWords} - ${result.finalResult}';
+    });
+  }
+
+  void soundLevelListener(double level) {
+    minSoundLevel = min(minSoundLevel, level);
+    maxSoundLevel = max(maxSoundLevel, level);
+    // print("sound level $level: $minSoundLevel - $maxSoundLevel ");
+    setState(() {
+      this.level = level;
+    });
+  }
+
+  void errorListener(SpeechRecognitionError error) {
+    // print("Received error status: $error, listening: ${speech.isListening}");
+    setState(() {
+      lastError = '${error.errorMsg} - ${error.permanent}';
+    });
+  }
+
+  void statusListener(String status) {
+    // print(
+    // 'Received listener status: $status, listening: ${speech.isListening}');
+    setState(() {
+      lastStatus = '$status';
+    });
+  }
+
+  void _switchLang(selectedVal) {
+    setState(() {
+      _currentLocaleId = selectedVal;
+    });
+    print(selectedVal);
   }
 
   Future toggleRecording() => SpeechApi.toggleRecording(

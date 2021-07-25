@@ -2,10 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:graduation_project101/widgets/navigation_drawer.dart';
 
 class Authentication {
   static FirebaseAuth _auth = FirebaseAuth.instance;
-
+  static FirebaseFirestore _firestore = FirebaseFirestore.instance;
   static Future<User> login(String email, String password) async {
     User _user;
     FirebaseAuth auth = FirebaseAuth.instance;
@@ -51,13 +52,18 @@ class Authentication {
 
   static createUser(
       String fName, String lName, String email, String profilePicture) {
-    FirebaseFirestore.instance.collection('users').add({
-      'id': _auth.currentUser.uid,
+    CollectionReference ref = _firestore.collection('users');
+    ref.add({
+      'uId': auth.currentUser.uid,
       'fName': fName,
       'lName': lName,
       'email': email,
       'profilePicture': profilePicture
     });
+  }
+
+  uploadImage() {
+    FirebaseFirestore.instance.collection('users/');
   }
 
   static signInWithGoogle() async {
